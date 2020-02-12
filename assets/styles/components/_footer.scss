@@ -1,0 +1,76 @@
+.footer-wrap {
+    margin-top: 30px;
+    background-color: rgb(245, 243, 236);
+}
+
+.all-footer-lists {
+    margin-top: 50px;
+
+    h4 {
+        font-family: 'Lato', sans-serif;
+    }
+
+    span {
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+.footer-content {
+    justify-content: space-between;
+}
+
+.links-list {
+    list-style-type: none;
+
+    li {
+        margin-left: -40px;
+        font-family: 'Lato', sans-serif;
+        margin-top: 15px;
+    }
+}
+
+.testimonials {
+    width: 255px;
+    
+    span {
+        font-family: 'Lato', sans-serif;    
+    }
+
+    .second-quote {
+        margin-top: 10px;
+    }
+}
+
+.quote-img {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+}
+
+.email-links {
+    width: 180px;
+    border: 1px solid black;
+
+    input {
+        width: 100%;
+        border-radius: 25px;
+        padding: 15px;
+        border: 1px solid rgb(197, 196, 196);
+        margin-top: 10px;
+    }
+
+    input::placeholder {
+        font-family: 'Lato', sans-serif;      
+    }
+}
+
+.join-now-btn {
+    width: 100%;
+    border-radius: 25px;
+    background-color: rgb(89, 214, 89);
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid rgb(77, 189, 77);
+    font-family: 'Lato', sans-serif;  
+}

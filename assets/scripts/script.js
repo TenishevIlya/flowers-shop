@@ -9,3 +9,6 @@ let topPosition = wrapContainer.getBoundingClientRect().top + (wrapContainer.get
 let left = searchInput.getBoundingClientRect().left;
 searchIcon.style.left = left + 6 + 'px';
 searchIcon.style.top = topPosition - 9.5 + 'px';
+
+let asd = document.querySelector(".shop-now-btn");
+console.log(asd.offsetHeight);
