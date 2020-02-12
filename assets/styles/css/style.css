@@ -1,0 +1,209 @@
+.all-content-container {
+  width: 72vw;
+  margin: 0 14vw; }
+
+.row-container {
+  display: flex; }
+
+.col-container {
+  display: flex;
+  flex-direction: column; }
+
+.short-links-and-register {
+  height: 16px;
+  width: 14vw;
+  margin-left: auto;
+  padding: 5px 0;
+  margin-bottom: 32px;
+  margin-top: 12px; }
+  .short-links-and-register a:first-of-type {
+    margin-left: 13px; }
+  .short-links-and-register img {
+    margin-right: 5px; }
+  .short-links-and-register span {
+    color: black; }
+
+.log-in {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 16px; }
+
+.log-in::after {
+  content: '  |'; }
+
+.registration {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 16px;
+  margin-left: -2px; }
+
+.search {
+  height: 40px;
+  width: 18%;
+  margin-top: 18px;
+  border-radius: 25px;
+  padding: 0 22px;
+  border: 2px solid #c5c4c4; }
+  .search:focus {
+    outline: none; }
+
+.search::placeholder {
+  color: black; }
+
+.search-img {
+  position: absolute;
+  color: black; }
+
+.main-header {
+  font-family: 'Montserrat', sans-serif;
+  width: 63%;
+  text-align: center; }
+
+.phone-info {
+  width: 16%; }
+
+.phone-number {
+  justify-content: center;
+  margin-left: -2px; }
+  .phone-number span {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em; }
+  .phone-number .first-span {
+    margin-bottom: 5px; }
+  .phone-number .second-span {
+    margin-top: 5px; }
+
+.phone-img {
+  margin-left: -13px;
+  margin-top: 8px; }
+
+.nav-list {
+  font-family: 'Lato', sans-serif;
+  padding: 0; }
+  .nav-list .nav-item {
+    display: inline;
+    margin: 0 7px; }
+  .nav-list .first-nav-item {
+    margin-right: 7px;
+    display: inline; }
+
+.nav-list li:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer; }
+
+#cart {
+  display: inline;
+  margin-left: 45px;
+  cursor: pointer; }
+
+.navigation {
+  margin-top: 20px;
+  border-top: 1px solid #c5c4c4;
+  border-bottom: 1px solid #c5c4c4; }
+
+.advantages {
+  margin-top: 20px;
+  justify-content: space-between; }
+  .advantages img {
+    margin-right: 5px; }
+
+.lock-advantage {
+  font-family: 'Lato', sans-serif;
+  line-height: 34px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+main {
+  background: linear-gradient(to right, #eeece5, #f5f3ed);
+  margin: 0;
+  padding: 0; }
+
+.order-advertisment {
+  width: 74%;
+  background-image: url("../../images/flowers.jpeg");
+  height: 510px;
+  background-size: cover;
+  margin-top: 12px; }
+
+.guarantee {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  padding: 5px 0;
+  border-top: 2px solid #c5c4c4;
+  border-bottom: 2px solid #c5c4c4; }
+
+.options {
+  height: 510px;
+  width: 25%;
+  margin-right: 1%; }
+  .options div {
+    height: 162px;
+    margin-top: 12px;
+    background-color: white; }
+  .options span {
+    font-family: 'Lato', sans-serif; }
+
+.advice-to-see {
+  margin-left: 25px;
+  margin-top: 10px; }
+
+.main-option-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  margin-left: 25px;
+  padding: 0; }
+
+.small-option-header {
+  font-family: 'Lato', sans-serif;
+  color: grey;
+  margin: 17px 0 0 25px; }
+
+.right-arrow-btn {
+  margin-left: 25px;
+  margin-top: 5px;
+  height: 22px;
+  width: 22px; }
+
+.advertisment {
+  margin-top: 20px; }
+
+.separation-dots {
+  margin-left: 25px; }
+
+.separation-dots-extra {
+  margin-top: -8px; }
+
+.order-header {
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  padding: 0; }
+
+.order-header-red {
+  color: red; }
+
+.shop-now-btn {
+  width: 100px;
+  border-radius: 25px;
+  margin-top: 22px;
+  padding: 5px;
+  border: 1px solid black;
+  font-family: 'Lato', sans-serif;
+  background: rgba(0, 0, 0, 0); }
+
+.order-advertisment-content {
+  margin-top: 220px;
+  margin-left: 364px;
+  width: 250px;
+  align-items: center; }
+
+.featured-products {
+  margin-top: 62px; }
+  .featured-products h3 {
+    font-family: 'Lato', sans-serif; }

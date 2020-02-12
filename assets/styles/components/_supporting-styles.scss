@@ -1,0 +1,15 @@
+.all-content-container {
+    width: 72vw;
+    margin: 0 14vw;
+    //border-right: 1px solid black;
+    //border-left: 1px solid black;
+}
+
+.row-container {
+    display: flex;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: column;
+}

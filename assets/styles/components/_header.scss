@@ -1,0 +1,149 @@
+.short-links-and-register {
+    height: 16px;
+    width: 14vw;
+    margin-left: auto;
+    padding: 5px 0;
+    margin-bottom: 32px;
+    margin-top: 12px;
+
+    a:first-of-type {
+        margin-left: 13px;
+    }
+
+    img {
+        margin-right: 5px;
+    }
+
+    span {
+        color: black;
+    }
+}
+
+.log-in {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 16px;
+}
+
+.log-in::after {
+    content: '  |';
+}
+
+.registration {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer; 
+    line-height: 16px; 
+    margin-left: -2px; 
+}
+
+
+.search {
+    height: 40px;
+    width: 18%;
+    margin-top: 18px;
+    border-radius: 25px;
+    padding: 0 22px;
+    border: 2px solid rgb(197, 196, 196);
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.search::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.search-img {
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.main-header {
+    font-family: 'Montserrat', sans-serif;
+    width: 63%;   
+    text-align: center;
+}
+
+.phone-info {
+    width: 16%;
+}
+
+.phone-number {
+    justify-content: center;
+    margin-left: -2px;
+    
+    span {
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9em;
+    }
+
+    .first-span {
+        margin-bottom: 5px;   
+    }
+
+    .second-span {
+        margin-top: 5px;     
+    }
+}
+
+.phone-img {
+    margin-left: -13px;
+    margin-top: 8px;
+}
+
+
+// navigation
+.nav-list {
+    font-family: 'Lato', sans-serif;
+    //border: 1px solid black;
+    padding: 0;
+
+
+    .nav-item {
+        display: inline;
+        margin: 0 7px;
+    }
+
+    .first-nav-item {
+        margin-right: 7px;
+        display: inline;
+    }
+}
+
+.nav-list li:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+#cart {
+   display: inline;
+   margin-left: 45px;
+   cursor: pointer;
+}
+
+.navigation {
+    margin-top: 20px;
+    border-top: 1px solid rgb(197, 196, 196);
+    border-bottom: 1px solid rgb(197, 196, 196);
+}
+
+
+//advantages
+.advantages {
+    margin-top: 20px;
+    justify-content: space-between;
+
+    img {
+        margin-right: 5px;
+    }
+}
+
+.lock-advantage {
+    font-family: 'Lato', sans-serif;
+    line-height: 34px;
+}
